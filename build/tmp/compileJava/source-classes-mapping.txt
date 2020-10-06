@@ -1,0 +1,2 @@
+com/jgsudhakar/spring/configserver/SpringConfigServerApplication.java
+ com.jgsudhakar.spring.configserver.SpringConfigServerApplication

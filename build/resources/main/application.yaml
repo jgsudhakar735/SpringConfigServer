@@ -1,0 +1,15 @@
+# Application running port
+server:
+    port: 8888
+
+# Spring configuration with local git repository
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: D:\\sudhakar\\Personal\\study\\spring\\SpringConfigServer
+  application:
+    name: jgsudhakar-services
+  devtools:
+    add-properties: false

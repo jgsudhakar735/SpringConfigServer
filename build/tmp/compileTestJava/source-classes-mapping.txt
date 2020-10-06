@@ -1,0 +1,2 @@
+com/jgsudhakar/spring/configserver/SpringConfigServerApplicationTests.java
+ com.jgsudhakar.spring.configserver.SpringConfigServerApplicationTests
