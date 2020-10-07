@@ -8,8 +8,26 @@ spring:
     config:
       server:
         git:
-          uri: D:\\sudhakar\\Personal\\study\\spring\\SpringConfigServer
+#          uri: D:\\sudhakar\\Personal\\study\\spring\\SpringConfigServer # if you are using the local repo point to the folder location
+          uri: https://github.com/jgsudhakar735/SpringConfigServer.git # GIT URL
+          username: # GIT User name
+          password: # Password
+          default-label: main # Branch name
+          clone-on-start: true # to check whether the server reachable and clone
+        jdbc:
+          enabled: true
+          order: 1
+          sql:
   application:
-    name: jgsudhakar-services
+    name: jgsudhakar-services # Application name , generally this will be the file name of the properties.
   devtools:
     add-properties: false
+  datasource:
+    username: root
+    password: tagit
+    url: jdbc:mysql://localhost:3306/spring
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+# Spring cloud config with Data Base

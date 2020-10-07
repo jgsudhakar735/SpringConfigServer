@@ -8,7 +8,12 @@ spring:
     config:
       server:
         git:
-          uri: D:\\sudhakar\\Personal\\study\\spring\\SpringConfigServer
+#          uri: D:\\sudhakar\\Personal\\study\\spring\\SpringConfigServer
+          uri: https://github.com/jgsudhakar735/SpringConfigServer.git
+          username: jgsudhakar735@gmail.com
+          password: Chinnodu@735
+          default-label: main
+          clone-on-start: true
   application:
     name: jgsudhakar-services
   devtools:
